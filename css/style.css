@@ -1,0 +1,84 @@
+/*====RESET=====*/
+*{	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Noto Serif', serif;
+}
+
+body{
+	background-color: #f5f5f5;
+}
+
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+
+/*======HEADER====*/
+.banner{
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 6%;
+	width: 100%;
+}
+
+.logo{
+	width: 8em;
+	height: auto;
+	overflow: all;
+	margin: 0;
+}
+
+#menu{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+
+.jumSite{
+	background-image: url(../img/bg.gif);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	color: red;
+	padding: 10%;
+}
+
+.scrollspySite{
+	position: relative;
+	overflow: auto;
+	height: 400px;
+}
+
+
+.menu-scroll img{
+	width: 60px;
+}
+
+
+
+@media (max-width: 760px) {
+	#menuSanduiche li, form button{
+		width: 100%;
+	}
+
+	.jumSite h1{
+		font-size: 2em;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.scrollspySite img{
+		width: 100px;
+	}
+}
