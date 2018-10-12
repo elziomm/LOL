@@ -5,9 +5,10 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	 <!-- Responsividade / Bootstrap-->
+	 <!-- Responsividade / Bootstrap / Font Awesome-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
 	<!-- BANNER HEADER -->
@@ -138,20 +139,20 @@
 
 	<!-- Scrollspy -->
 	<div class="container">
-		<div class="row">
-			<div class="col-3 col-sm-3 col-md-2 mb-3 order-12 menu-scroll">
+		<div class="row mb-5">
+			<div class="col-3 col-sm-3 col-md-4 mb-3" id="menu-scroll">
 				<nav id="navbarVertical" class="navbar navbar-light bg-light">
 					<nav class="nav nav-pills flex-column">
-						<a class="nav-link" href="#item1"><img src="img/icones/assassino.png"></a>
-						<a class="nav-link" href="#item2"><img src="img/icones/atirador.png"></a>
-						<a class="nav-link" href="#item3"><img src="img/icones/lutador.png"></a>
-						<a class="nav-link" href="#item4"><img src="img/icones/mago.png"></a>
-						<a class="nav-link" href="#item5"><img src="img/icones/suporte.png"></a>
-						<a class="nav-link" href="#item6"><img src="img/icones/tanque.png"></a>
+						<a class="nav-link" href="#item1"><img src="img/icones/assassino.png"><p>Assassinos</p></a>
+						<a class="nav-link" href="#item2"><img src="img/icones/atirador.png"><p>Atiradores</p></a>
+						<a class="nav-link" href="#item3"><img src="img/icones/lutador.png"><p>Lutadores</p></a>
+						<a class="nav-link" href="#item4"><img src="img/icones/mago.png"><p>Magos</p></a>
+						<a class="nav-link" href="#item5"><img src="img/icones/suporte.png"><p>Supotes</p></a>
+						<a class="nav-link" href="#item6"><img src="img/icones/tanque.png"><p>Tanques</p></a>
 					</nav>	
 				</nav>
 			</div>
-			<div class="col-9 col-sm-9 col-md-9 order-12 text-justify">
+			<div class="col-9 col-sm-9 col-md-8 order-12 text-justify">
 				<div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
 					<h4 id="item1">Assassinos</h4>
 					<p>Os Assassinos ou Retalhadores são campeões de ataque corpo a corpo frágeis, porém ágeis. Eles são especialistas em causar dano e procuram eliminar seus alvos rapidamente. Se dividem em duas subclasses (Assassinos e Duelistas)!<br><center><img src="img/classes/assassinos.png"></center></p>
@@ -179,9 +180,9 @@
 
 
 		<!-- Cards -->
-		<div class="row mb-5">
-			<div class="col-sm-4">
-				<div class="card">
+		<div class="row justify-content-sm-center text-justify">
+			<div class="col-sm-6 col-md-4">
+				<div class="card mb-5">
 					<img src="img/runas/inspiracao.png" class="card-img-top">
 					<div class="card-body">
 						<h4 class="card-title">Runa de Inspiração</h4>
@@ -191,19 +192,19 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<div class="card">
+			<div class="col-sm-6 col-md-4">
+				<div class="card mb-5">
 					<img src="img/runas/feiticaria.jpg" class="card-img-top">
 					<div class="card-body">
 						<h4 class="card-title">Runa de Feitiçaria</h4>
 						<h6 class="card-subtitle mb-2 text-muted">Habilidades capacitadas e manipulação de recursos!</h6>
-						<p class="card-text text-justify">Séculos atrás, artefatos mágicos chamados "Runas Mundiais" foram redescobertos. Nas décadas seguintes após esse evento, o conhecimento das Runas começou a se espalhar à medida que mais eram descobertas. As mentes mais brilhantes do mundo estudaram os antigos glifos, tentando determinar os poderes que possuíam.</p>
+						<p class="card-text text-justify">Séculos atrás, artefatos mágicos chamados "Runas Mundiais" foram redescobertos. Nas décadas seguintes após esse evento, o conhecimento das Runas começou a se espalhar à medida que mais eram descobertas. As mentes mais brilhantes do mundo estudaram os antigos glifos, tentando determinar os poderes que possuíam.<br></p>
 						<a href="#" class="card-link" data-toggle="modal" data-target="#ampliar2">Ver subclasses</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
-					<div class="card">
+			<div class="col-sm-6 col-md-4">
+					<div class="card mb-5">
 						<img src="img/runas/dominacao.jpg" class="card-img-top">
 						<div class="card-body">
 							<h4 class="card-title">Runa de Dominação</h4>
@@ -216,6 +217,65 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- Jumbotron-->
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1 class="display-4">League Of Legends</h1>
+					<p class="lead">A comunidade brasileira o aguarda no jogo mais épico de todos os tempos!</p>
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role"tablist">
+						<li nav-item>
+							<a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">O Jogo - Domine o Rifth</a>
+						</li>
+
+						<li nav-item>
+							<a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Jogue Grátis</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="nav-pills-content">
+						<div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y2SMYnsDRDk"></iframe>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<h1 class="lead">O que é League of Legends?</h1>
+									<p>Independentemente de você jogar solo ou com amigos, League of Legends é um jogo acelerado, estratégico e altamente competitivo desenvolvido para quem gosta de vitórias suadas. Jogue melhor, pense melhor</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+							<div class="row">
+								<div class="col-sm-6">
+										<img src="img/Gif.gif" class="img-thumbnail img-fluid" alt="Imagem responsiva">
+								</div>
+								<div class="col-sm-6">
+									<h1 class="lead">Torne-se uma lenda!</h1>
+									<hr>
+									<p>Sua lenda começa agora...</p>
+									<a class="btn btn-primary btn-lg" href="https://signup.br.leagueoflegends.com/pt/signup/index#/" target="_blank" role="button">GGeasy</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 
 
