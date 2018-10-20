@@ -47,7 +47,7 @@ img{
 	background-image: url(../img/bg.gif);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	width: 100%;
+	background-size: cover;
 	color: red;
 	padding: 10%;
 }
@@ -55,13 +55,14 @@ img{
 .scrollspySite{
 	position: relative;
 	overflow: auto;
-	height: 400px;
+	height: 450px;
 }
 
 
 #menu-scroll img{
 	width: 70px;
 }
+
 
 
 
@@ -79,17 +80,23 @@ img{
 		display: none;
 	}
 
-	#menu-scroll img{
-		display: none;
-	}
-
 	.scrollspySite img{
 		display: none;
 	}
+
+	#menu-scroll img{
+		width: 40px;
+	}
+
+	#menu-scroll p{
+		font-size: 10px;
+	}	
 }
 
 @media (min-width: 599px){
 	#menu-scroll p{
 		display: inline-block;
+		position: relative;
+		left: 15px;
 	}
 }
